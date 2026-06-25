@@ -1,46 +1,125 @@
 ---
 title: "Carlos Daniel Reséndiz Flores"
 image: "banner.jpg"
+
 links:
+  - label: '`r fontawesome::fa(name = "github", fill = "steelblue")` GitHub'
+    url: "https://github.com/CarlosFlores27"
+
   - label: '`r fontawesome::fa(name = "linkedin", fill = "steelblue")` LinkedIn'
     url: "https://www.linkedin.com/in/carlos-r-flores-392b22263/"
-  #- label: '`r fontawesome::fa(name = "twitter", fill = "steelblue")` Twitter'
-    #url: "https://twitter.com/EveliaCoss/"
-  - label: '`r fontawesome::fa(name = "github", fill = "steelblue")` Github'
-    url: "https://github.com/CarlosFlores27"
-  #- label: '`r fontawesome::fa(name = "researchgate", fill = "steelblue")` ResearchGate'
-    #url: https://www.researchgate.net/profile/Evelia-Coss-Navarrete  
-  #- label: '`r fontawesome::fa(name = "envelope", fill = "steelblue")` Mail'
-    #url: "mailto:ecossnav@gmail.com"
-  #- label: '`r fontawesome::fa(name = "user", fill = "steelblue")` CV'
-    #url: "https://eveliacoss.github.io/CV/cv_ECoss.html"
+
+  # - label: '`r fontawesome::fa(name = "google-scholar", fill = "steelblue")` Google Scholar'
+  #   url: ""
+
+  # - label: '`r fontawesome::fa(name = "orcid", fill = "steelblue")` ORCID'
+  #   url: ""
+
+  # - label: '`r fontawesome::fa(name = "envelope", fill = "steelblue")` Email'
+  #   url: "mailto:"
+
 output:
-  postcards::jolla
+  postcards::trestles
 ---
 
-```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
 library(fontawesome)
 ```
 
-#### **Bio** 
+## **Bio**
 
-I am interested in gene regulation, lncRNAs, autoimmune disease, evolution and bioinformatics.
+I am an undergraduate student pursuing a **Bachelor's Degree in Technology** at the **National School of Higher Studies (ENES) Juriquilla**, **National Autonomous University of Mexico (UNAM)**.
 
-Founding member of VieRnes de Bioinformatica en el LIIGH (bioinformatics fridays at @[LIIGH-UNAM](https://twitter.com/LIIGH_UNAM)) | web page: <https://viernesbioinformatica.github.io/> | Github: [ViernesBioinfo2023_parte0](https://github.com/EveliaCoss/ViernesBioinfo2023); [ViernesBioinfo2024_parte1](https://github.com/EveliaCoss/ViernesBioinfo2024); [ViernesBioinfo2024_parte2](https://github.com/EveliaCoss/ViernesBioinfo2024_parte2); [ViernesBioinfo2025_parte4](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte4); [ViernesBioinfo2025_parte3](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3); [ViernesBioinfo2026_parte5](https://github.com/VieRnesBioinformatica/ViernesBioinfo2026_parte5)
+My research interests lie at the intersection of **Artificial Intelligence, Biomedical Engineering, Applied Mathematics, Physics, and Aerospace Engineering**. I enjoy developing computational methods that integrate machine learning, scientific computing, and mathematical modeling to solve multidisciplinary problems.
 
-#### **Education**
+Currently, I participate in research projects involving:
 
-**Postdoctoral Fellowship** | @[LIIGH-UNAM](https://twitter.com/LIIGH_UNAM) | February 2023 - May 2026
+* Magnetic Resonance Imaging (MRI)
+* Deep Learning for Biomedical Data Analysis
+* Mathematical and Computational Modeling
+* CanSat Aerospace Systems Design
+* Scientific Computing with Python
 
-**PhD in Plant Biotechnology** | @[Cinvestav UGA-Langebio](https://twitter.com/uga_langebio), Mexico | August 2018 - January 2023
+My long-term goal is to contribute to the development of computational technologies that advance scientific research and address high-impact engineering and biomedical challenges.
 
-#### **Experience**
+---
 
-Member of the @[R-ladies Morelia](https://www.facebook.com/profile.php?id=100093337606435), @[RIABIO](https://twitter.com/RiaBioNet), @[CDSB Mexico](https://twitter.com/CDSBMexico) and @[ISCB RSG-Mexico](https://x.com/rsg_iscb_mexico?lang=es).
+## **Education**
 
-#### **Repository Contributions**
+**B.Sc. in Technology**
+**Escuela Nacional de Estudios Superiores (ENES) Unidad Juriquilla**
+**Universidad Nacional Autónoma de México (UNAM)**
 
-Webpage [Plants&Python](https://plantsandpython.github.io/PlantsAndPython/00_Opening_page.html) | Github [Plants&Python](https://github.com/PlantsAndPython/PlantsAndPython) | Dr. Daniel H. Chitwood, Dr. Robert VanBuren and Alejandra Rougon-Cardoso
+Expected graduation: 2028
 
-[Transcriptome-guided annotation and functional classification of long non-coding RNAs in Arabidopsis thaliana](https://pubmed.ncbi.nlm.nih.gov/35982083/) | Github [Transcriptome-guided_lncRNA_annotation](https://github.com/RegRNALab/Transcriptome-guided_lncRNA_annotation) | Dr. @[Selene Fernandez-Valverde](https://twitter.com/SelFdz)
+---
+
+## **Research Interests**
+
+* Artificial Intelligence
+* Machine Learning
+* Deep Learning
+* Medical Image Analysis
+* Magnetic Resonance Imaging
+* Biomedical Signal Processing
+* Mathematical Modeling
+* Scientific Computing
+* Aerospace Engineering
+* Computational Physics
+
+---
+
+## **Current Projects**
+
+### Deep Learning for MRI
+
+Development of deep learning methodologies for biomedical image reconstruction and analysis, with emphasis on magnetic resonance imaging.
+
+### Mathematical Modeling
+
+Application of computational and mathematical techniques to biological and engineering systems.
+
+### CanSat
+
+Design and development of satellite-inspired embedded systems for aerospace applications, including telemetry, sensors, and autonomous operation.
+
+---
+
+## **Technical Skills**
+
+**Programming**
+
+* Python
+* R
+* MATLAB (basic)
+* Git & GitHub
+
+**Libraries**
+
+* NumPy
+* SciPy
+* Pandas
+* Matplotlib
+* PyTorch
+* TensorFlow
+* Scikit-learn
+
+**Areas**
+
+* Machine Learning
+* Deep Learning
+* Scientific Computing
+* Data Analysis
+* Signal Processing
+* Medical Imaging
+
+---
+
+## **Research Goals**
+
+I aspire to pursue graduate studies focused on Artificial Intelligence and Computational Science, developing novel algorithms that bridge engineering, physics, and biology to create technologies with meaningful scientific and societal impact.
+
+
+
+
 
